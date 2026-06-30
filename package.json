@@ -1,0 +1,14 @@
+{
+  "name": "macro-rides-corridor",
+  "version": "1.0.0",
+  "description": "Zone boundary + dynamic 350m route corridor visualization tool for Macro Rides, built with H3 and Leaflet.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve . -l 5173",
+    "test": "node tests/corridor.test.js"
+  },
+  "devDependencies": {
+    "h3-js": "^4.1.0"
+  },
+  "license": "MIT"
+}
